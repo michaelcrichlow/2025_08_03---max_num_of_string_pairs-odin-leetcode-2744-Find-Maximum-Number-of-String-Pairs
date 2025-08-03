@@ -84,6 +84,8 @@ main :: proc() {
 
     // code goes here
     print(max_num_of_string_pairs_00([]string{"cd","ac","dc","ca","zz"}))
+    print(max_num_of_string_pairs_00([]string{"ab","ba","cc"}))
+    print(max_num_of_string_pairs_00([]string{"aa","ab"}))
 
     // ---------------------------------------------------------------------------------------------------------
     iterations := 1_000
